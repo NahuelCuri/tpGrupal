@@ -10846,7 +10846,7 @@ html {
 }
 
 .divider-custom {
-  margin: 1.25rem 0 1.5rem;
+  margin: 1.25rem 0 4rem;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -11120,9 +11120,25 @@ html {
   justify-content: center;
   align-items: center;
   height: 17vh;
+  padding-top: 30px;
 }
 
 .container h2{
   padding-top: 40px;
+}
+
+.calcularBtn{
+  padding-top: 15px;
+  text-align: center;
+}
+
+.respuesta {
+  display: block;
+  font-size: 2rem;
+  text-align: right;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ccc;
+  color: red;
 }
 
